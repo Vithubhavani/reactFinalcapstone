@@ -1,5 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import RegisterPage from './pages/RegisterPage'
+import NotFoundPage from './pages/NotFoundPage'
+import GenrePage from './pages/GenrePage'
+import CarousalPage from './pages/CarousalPage'
+import DashboardPage from './pages/DashboardPage'
 
 function App() {
 
@@ -11,10 +15,12 @@ function App() {
       <Route path="/" element={<RegisterPage/>} />
       <Route path="/register" element={<RegisterPage/>} />
       <Route path="/home" element={<RegisterPage/>} />
-      <Route path="/carousal" element={<RegisterPage/>} />
-      <Route path="/dashboard" element={<RegisterPage/>} />
+      <Route path='/genre' element={<GenrePage/>}/>
+      <Route path="/carousel" element={<CarousalPage/>} />
+      <Route path="/dashboard" element={<DashboardPage/>} />
       <Route path="/movies" element={<RegisterPage/>} />
-      <Route path="*" element={<RegisterPage/>} />
+      <Route path="*" element={<NotFoundPage/>} />
+      
     </Routes>
   </BrowserRouter>
     </>

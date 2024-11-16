@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.names{
+    width: 518px;
+    height: 40px;
+    background-color: rgb(54, 53, 53);
+    color: #7C7C7C;
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+.btn{
+    width: 518px;
+    height: 40px;
+    background-color: #72DB73;
+    color: white;
+    border-radius: 28px;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+.error{
+    color: red;
+}

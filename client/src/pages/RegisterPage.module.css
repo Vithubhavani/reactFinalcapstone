@@ -1,5 +1,65 @@
 .container{
-    background-color: yellow;
+   
     width: 100vw;
     height: 100vh;
+    display: flex;
+    background-color: black;
 }
+
+.left{
+    background: url(../assets/left.png);
+    height: 100vh;
+    width: 50%;  
+  
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.label{
+    font-family:  "Roboto", sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 55px;
+    margin-top: 503px;
+    margin-left: 62px;
+    
+}
+
+.title{
+font-family: "Single Day", cursive;
+color: #72DB73;
+font-size: 67px;
+font-weight: 400;
+
+}
+
+.subtitle{
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    margin-top: 30px;
+}
+
+.foot{
+    color: #7C7C7C;
+    width: 518px;
+    font-size: 15px;
+    font-family:"Roboto", sans-serif ;
+    margin-top: 30px;
+}
+
+.foot1 span{
+color: #72DB73;
+
+}
+
+
+

@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    color: white;
+  
+
+}
+
+.header{
+    display: flex;
+    background-color: #FF4ADE;
+    height: 40px;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.detailsContainer{
+   display: flex; 
+   
+}
+.content{
+    display: flex;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+   
+}
+
+.tp{
+    margin-left: 200px;
+   display: flex;
+   flex-direction: column;
+   gap: 6px;
+}
+
+.temperature{
+    font-size: 30px;
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+

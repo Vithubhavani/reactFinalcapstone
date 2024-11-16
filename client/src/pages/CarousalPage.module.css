@@ -1,0 +1,39 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 20px;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    padding: 70px;
+    }
+    
+
+    .profile { 
+        grid-area: 1 / 1 / 3 / 3; 
+        background-color: #5746EA;
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+
+    .weatherWidget {
+         grid-area: 3 / 1 / 4 / 3; 
+         background-color: #101744;
+         width: 100%;
+         height: 100%;
+         border-radius: 20px;
+        }
+
+
+    .news{ 
+        grid-area: 1 / 3 / 4 / 4; 
+        background-color: green;
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+   
+  

@@ -1,0 +1,133 @@
+.container{
+    display: flex;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.left{
+    width: 50%;
+    color: white;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.heading{
+    font-size: 50px;
+    font-family:"Single Day", cursive ;
+    color: #72DB73;
+}
+
+.subHeading{
+    width: 500px;
+    height: 300px;
+    font-size: 68px;
+   
+}
+
+.selectedGenres{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+
+    
+}
+
+.selectedGenre{
+  
+
+}
+
+.g{
+    display: flex;
+    gap: 20px;
+    background-color: #148A08;
+    width: 150px;
+    height: 40px;
+     border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.g span{
+    color: rgb(41, 40, 40);
+}
+.right{
+   margin-left: 50px;
+   margin-top: 30px;
+}
+
+.genres{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.genre{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    flex-direction: column;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+
+.genre-0{
+    background-color: #FF5209;
+}
+.genre-1{
+    background-color: #D7A4FF;
+}
+
+.genre-2{
+    background-color: #11B800;
+}
+
+.genre-3{
+    background-color: #84C2FF;
+}
+
+.genre-4{
+    background-color: #902500;
+}
+
+.genre-5{
+    background-color: #7358FF;
+}
+
+.genre-6{
+    background-color: #FF4ADE;
+}
+
+.genre-7{
+    background-color: #E61E32;
+}
+.genre-8{
+    background-color: #6CD061;
+}
+
+.button{
+    width: 150px;
+    height: 40px;
+    background-color: #148A08;
+    border-radius: 20px;
+    color:white;
+    font-size: 20px;
+    margin-left: 350px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.error{
+    color: red;
+    margin-top: 20px;
+    font-size: 20px;
+}
