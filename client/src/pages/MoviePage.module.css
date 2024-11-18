@@ -1,0 +1,40 @@
+.container{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 100%;
+    padding: 20px;
+}
+
+.navs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head{
+    font-family:"Single Day", cursive ;
+    color: #72DB73;
+    font-weight: 400;
+    font-size: 40px;
+}
+.navs img{
+    width: 80px;
+    height: 80px;
+}
+
+.para{
+    font-family: "Roboto", sans-serif;
+    font-weight:600;
+    font-size:20px
+}
+
+.movies{
+    margin-top: 20px;
+}
+
+.genre{
+    margin-top: 20px;
+    color: #878787;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}

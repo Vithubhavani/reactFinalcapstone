@@ -1,4 +1,6 @@
 import styles from './DashboardPage.module.css'
+import  Timerwidget  from '../component/Timerwidget'
+import Notes from '../component/Notes'
 
 export default function DashboardPage() {
   return (
@@ -6,8 +8,10 @@ export default function DashboardPage() {
  
  <div className={styles.profile}>div1</div>
 	<div className={styles.weather}>div2</div>
-	<div className={styles.timer}>div3</div>
-	<div className={styles.notes}>div4</div>
+	<div className={styles.timer}>
+    <Timerwidget/>
+    </div>
+	<div className={styles.notes}><Notes/></div>
 	<div className={styles.news}>div5</div>
     </div>
   )

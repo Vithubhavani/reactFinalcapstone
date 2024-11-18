@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    gap: 20px;
+  
+}
+
+.movie img{
+    width: 300px;
+    height: 192px;
+    border-radius: 20px;
+    margin-top: 20px;
+   
+}

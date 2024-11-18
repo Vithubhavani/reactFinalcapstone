@@ -4,6 +4,7 @@ import NotFoundPage from './pages/NotFoundPage'
 import GenrePage from './pages/GenrePage'
 import CarousalPage from './pages/CarousalPage'
 import DashboardPage from './pages/DashboardPage'
+import MoviePage from './pages/MoviePage'
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
       <Route path='/genre' element={<GenrePage/>}/>
       <Route path="/carousel" element={<CarousalPage/>} />
       <Route path="/dashboard" element={<DashboardPage/>} />
-      <Route path="/movies" element={<RegisterPage/>} />
+      <Route path="/movies" element={<MoviePage/>} />
       <Route path="*" element={<NotFoundPage/>} />
       
     </Routes>
