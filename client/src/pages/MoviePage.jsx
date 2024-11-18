@@ -13,7 +13,7 @@ export default function MoviePage() {
       </div>
       <div className={styles.para}>Entertainment according to your choice</div>
       <div className={styles.movies}>
-         {selectedGenres?.slice(0,4).map((genre,index)=>(
+         {selectedGenres?.map((genre,index)=>(
           <div key={index} className={styles.gen}>
            <p className={styles.genre}>{genre}</p>
            <GenreRow genre={genre}/>
