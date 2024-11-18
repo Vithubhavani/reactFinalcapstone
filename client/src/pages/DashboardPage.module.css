@@ -11,11 +11,18 @@
 
 .profile {
 	grid-area: 1/1/2/2;
-	background-color: rgba(227,11,152, 0.5);
+	background-color: #5746EA;
+	width: 100%;
+	height: 50px;
+
 }
 .weather {
 	grid-area: 2/1/3/2;
-	background-color: white;
+	background-color: #101744;
+	margin-top: 20px;
+	border-radius: 5px;
+	width: 100%;
+	height: 120px;
 }
 .timer {
 	grid-area: 3 / 1 / 4 / 3;

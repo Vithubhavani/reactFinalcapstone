@@ -1,4 +1,5 @@
 .container{
+    container-type: inline-size;
     display: flex;
     flex-direction: column;
     color: white;
@@ -25,8 +26,7 @@
     display: flex;
     padding: 20px;
     font-size: 18px;
-    font-weight: 400;
-   
+    font-weight: 400;  
 }
 
 .tp{
@@ -45,6 +45,49 @@
     flex-direction: column;
 }
 
+@container (max-width: 600px){
+   
+.header{
+    display: flex;
+    background-color: #FF4ADE;
+    height: 25px;
+    justify-content: space-between;
+    padding: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.detailsContainer{
+   display: flex; 
+   
+}
+.content{
+    display: flex;
+    padding: 2px;
+    font-size: 10px;
+    font-weight: 400;
+   
+}
+
+.tp{
+    margin-left: 80px;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   margin-top: 15px;
+  
+}
+
+.temperature{
+    font-size: 20px;
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+} 
+}
 
 
 
