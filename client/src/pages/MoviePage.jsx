@@ -21,6 +21,7 @@ export default function MoviePage() {
          ))}
         
       </div>
+      
     </div>
   )
 }
