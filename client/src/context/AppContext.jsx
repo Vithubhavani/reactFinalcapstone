@@ -7,7 +7,7 @@ export const AppContext = createContext();
 export const AppProvider=({children})=>{
 const[user,setUser]=useState(JSON.parse(localStorage.getItem("user"))||null)
  const[selectedGenres,setSelectedGenres]=useState(
-    JSON.parse(localStorage.getItem('selectedGenres'))
+    JSON.parse(localStorage.getItem('selectedGenres')||null)
  )
 
  useEffect(()=>{
