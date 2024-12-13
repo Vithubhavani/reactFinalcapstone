@@ -20,7 +20,7 @@ export default function DashboardPage() {
     </div>
 	<div className={styles.notes}><Notes/></div>
 	<div className={styles.news}><Newswidget/></div>
-  <button onClick={handleNext} className={styles.button}>Next</button>
+  <button onClick={()=>handleNext()} className={styles.button}>Next</button>
     </div>
   )
 }
